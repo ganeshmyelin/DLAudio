@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     home_dir = pathlib.Path.cwd()
     print(f'\n ** home_dir now is ** : {home_dir} ')
-    DATASET_PATH = pathlib.Path(home_dir / 'data/gtzan_reduced/genres_original')
+    DATASET_PATH = pathlib.Path(home_dir/'data/gtzan_reduced/genres_original')
     JSON_PATH = "data1.json"
 
     print(str(DATASET_PATH))
